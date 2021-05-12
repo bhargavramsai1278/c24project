@@ -16,6 +16,7 @@ function setup(){
     hammer = new Hammer(10,100);
     rubber =new  Rubber (20,20,70);
     stone = new  Stone (200,200,20,20)
+    iron =  new Iron (300,350)
 
 }
 
@@ -30,7 +31,7 @@ function draw(){
     hammer.display();
     rubber.display();
     stone.display();
-
+    iron.display();
 
 
 
